@@ -1,12 +1,101 @@
+html {
+}
+
 h1 {
     font-family: Francois One, sans-serif;
-    font-size: 400%;
+    font-size: 200%;
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center;
 }
+
+img {
+    max-width: 200px;
+}
+
+div {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:1000px;
+    width:200px;
+    background-color: black;
+    font-family: Didact Gothic, sans-serif;
+    color: white;
+}
+
 
 h2 {
-    font-family: Didact Gothic, sans-serif;
+    font-family: Francois One, sans-serif;
+    font-size: 400%;
+    margin-left: 250px;
+    margin-top: 16px;
+    text-align: center;
 }
 
-p{
+h3 {
     font-family: Didact Gothic, sans-serif;
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 150%;
+}
+    
+p {
+    font-family: Didact Gothic, sans-serif;
+    margin-left: 250px;
+}
+
+#innovative {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 200px;
+    width: 200px;
+    margin-right: 700px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+}
+
+#innovative2 {
+    height: 200px;
+    width: 200px;
+    margin-right: 700px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    position: absolute;
+}
+
+#innovative:hover {
+    opacity: 0;
+}
+
+#useful {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 200px;
+    width: 500px;
+    margin-left: 500px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+}
+
+#useful2 {
+    height: 200px;
+    width: 500px;
+    margin-left: 500px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    position: absolute;
+}
+
+#useful:hover {
+    opacity: 0;
 }
