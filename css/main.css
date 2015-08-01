@@ -103,8 +103,8 @@ p {
     border: 1px solid #ff3333;
     border-radius: 50%;
     background-color: #ff3333;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     margin-left:950px;
     color: white;
     font-size: 800%;
@@ -117,8 +117,8 @@ p {
     border: 1px solid white;
     border-radius: 50%;
     background-color: white;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     margin-left: 950px;
     text-align: center;
     color: black;
@@ -131,6 +131,36 @@ p {
     opacity: 0;
 }
 
-.rounded {
+#understandable {
+    border: 1px solid #ff3333;
+    border-radius: 50%;
+    background-color: #ff3333;
+    height: 250px;
+    width: 250px;
+    margin-right:200px;
+    margin-top: 250px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+}
 
+#understandable2 {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin-right: 200px;
+    margin-top: 250px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    overflow: scroll;
+    padding: 10px;
+}
+
+#understandable:hover {
+    opacity: 0;
 }
