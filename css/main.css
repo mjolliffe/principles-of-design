@@ -4,7 +4,6 @@ html {
 h1 {
     font-family: Francois One, sans-serif;
     font-size: 200%;
-    margin-left: 250px;
     margin-top: 50px;
     text-align: center;
 }
@@ -15,10 +14,8 @@ img {
 
 div {
     position: fixed;
-    left: 0;
-    top: 0;
-    height:1000px;
-    width:200px;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     font-family: Didact Gothic, sans-serif;
     color: white;
@@ -28,14 +25,12 @@ div {
 h2 {
     font-family: Francois One, sans-serif;
     font-size: 400%;
-    margin-left: 250px;
-    margin-top: 16px;
     text-align: center;
+    padding: 40px;
 }
 
 h3 {
     font-family: Didact Gothic, sans-serif;
-    margin-left: 250px;
     margin-top: 50px;
     text-align: center;
     font-size: 150%;
@@ -43,7 +38,7 @@ h3 {
     
 p {
     font-family: Didact Gothic, sans-serif;
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 #innovative {
@@ -51,22 +46,24 @@ p {
     background-color: #ff3333;
     height: 200px;
     width: 200px;
-    margin-right: 700px;
+    margin-right: 200px;
     color: white;
     font-size: 800%;
-    text-align: right;
+    text-align: center;
     position: absolute;
+    padding: 10px;
 }
 
 #innovative2 {
     height: 200px;
     width: 200px;
-    margin-right: 700px;
-    text-align: left;
+    margin-right: 200px;
+    text-align: center;
     border: 1px solid white;
     background-color: white;
     color: black;
     position: absolute;
+    padding: 10px;
 }
 
 #innovative:hover {
@@ -77,25 +74,63 @@ p {
     border: 1px solid #ff3333;
     background-color: #ff3333;
     height: 200px;
-    width: 500px;
-    margin-left: 500px;
+    width: 450px;
+    margin-left: 420px;
     color: white;
     font-size: 800%;
     text-align: right;
     position: absolute;
+    padding: 10px;
 }
 
 #useful2 {
     height: 200px;
-    width: 500px;
-    margin-left: 500px;
+    width: 450px;
+    margin-left: 420px;
     text-align: left;
     border: 1px solid white;
     background-color: white;
     color: black;
     position: absolute;
+    padding: 10px;
 }
 
 #useful:hover {
     opacity: 0;
+}
+
+#aesthetic {
+    border: 1px solid #ff3333;
+    border-radius: 50%;
+    background-color: #ff3333;
+    height: 250px;
+    width: 250px;
+    margin-left:950px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+}
+
+#aesthetic2 {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin-left: 950px;
+    text-align: center;
+    color: black;
+    position: absolute;
+    overflow: scroll;
+    padding: 10px;
+}
+
+#aesthetic:hover {
+    opacity: 0;
+}
+
+.rounded {
+
 }
