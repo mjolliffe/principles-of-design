@@ -24,15 +24,6 @@ p {
     position: relative;
 }
 
-strong {
-    font-size: 1.5em;
-}
-
-.principles {
-    width: 1000px;
-    position:relative;
-}
-
 #innovative {
     border: 1px solid #222222;
     background-color: #222222;
@@ -373,12 +364,12 @@ img {
     padding-right: 30px;
 }
 
-ul {
+ol {
     padding-right: 30px;
     line-height: 2em;
 }
 
-li:first-of-type {
+ol li:first-of-type {
     font-size: 42px;
     padding-top: 30px;
 }
