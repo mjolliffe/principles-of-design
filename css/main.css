@@ -58,7 +58,7 @@ p {
     height: 200px;
     width: 200px;
     margin-right: 180px;
-    text-align: center;
+    text-align: left;
     border: 1px solid white;
     background-color: white;
     color: black;
@@ -123,8 +123,9 @@ p {
     text-align: center;
     color: black;
     position: absolute;
-    overflow: scroll;
     padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #aesthetic:hover {
@@ -154,11 +155,12 @@ p {
     width: 200px;
     margin-right: 200px;
     margin-top: 260px;
-    text-align: center;
     color: black;
     position: absolute;
-    overflow: scroll;
     padding: 10px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #understandable:hover {
@@ -169,7 +171,7 @@ p {
     border: 1px solid #ff3333;
     background-color: #ff3333;
     height: 200px;
-    width: 160px;
+    width: 180px;
     margin-left: 420px;
     margin-top: 260px;
     color: white;
@@ -180,18 +182,84 @@ p {
 }
 
 #unobtrusive2 {
+    border: 1px solid white;
+    background-color: white;
     height: 200px;
-    width: 160px;
+    width: 180px;
     margin-left: 420px;
     margin-top: 260px;
     text-align: left;
-    border: 1px solid white;
-    background-color: white;
     color: black;
     position: absolute;
     padding: 10px;
 }
 
 #unobtrusive:hover {
+    opacity: 0;
+}
+
+#honest {
+    border: 1px solid #ff3333;
+    border-top-left-radius:100%;
+    background-color: #ff3333;
+    height: 200px;
+    width: 200px;
+    margin-left: 670px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    padding: 10px;
+}
+
+#honest2 {
+    border: 1px solid white;
+    border-top-left-radius:100%;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 670px;
+    margin-top: 260px;
+    text-align: right;
+    color: black;
+    position: absolute;
+    padding: 10px;
+}
+
+#honest:hover {
+    opacity: 0;
+}
+
+#long-lasting {
+    border: 1px solid #ff3333;
+    border-top-right-radius:100%;
+    background-color: #ff3333;
+    height: 200px;
+    width: 200px;
+    margin-left: 950px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: left;
+    position: absolute;
+    padding: 10px;
+}
+
+#long-lasting2 {
+    border: 1px solid white;
+    border-top-right-radius:100%;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 950px;
+    margin-top: 260px;
+    text-align: left;
+    color: black;
+    position: absolute;
+    padding: 10px;
+}
+
+#long-lasting:hover {
     opacity: 0;
 }
