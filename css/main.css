@@ -1,4 +1,5 @@
 html {
+    height: 900%
 }
 
 h1 {
@@ -8,23 +9,9 @@ h1 {
     text-align: center;
 }
 
-img {
-    max-width: 200px;
-}
-
-div {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    font-family: Didact Gothic, sans-serif;
-    color: white;
-}
-
-
 h2 {
     font-family: Francois One, sans-serif;
-    font-size: 400%;
+    font-size: 600%;
     text-align: center;
     padding: 40px;
 }
@@ -39,6 +26,12 @@ h3 {
 p {
     font-family: Didact Gothic, sans-serif;
     margin-left: 150px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+strong {
+    font-size: 1.4em;
 }
 
 #innovative {
@@ -262,4 +255,122 @@ p {
 
 #long-lasting:hover {
     opacity: 0;
+}
+
+#thorough {
+    border: 1px solid #ff3333;
+    border-radius: 50%;
+    background-color: #ff3333;
+    height: 200px;
+    width: 200px;
+    margin-right:200px;
+    margin-top: 520px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+}
+
+#thorough2 {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-right: 200px;
+    margin-top: 520px;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#thorough:hover {
+    opacity: 0;
+}
+
+#environmental {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 200px;
+    width: 180px;
+    margin-left: 420px;
+    margin-top: 520px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    padding: 10px;
+}
+
+#environmental2 {
+    border: 1px solid white;
+    background-color: white;
+    height: 200px;
+    width: 180px;
+    margin-left: 420px;
+    margin-top: 520px;
+    text-align: left;
+    color: black;
+    position: absolute;
+    padding: 10px;
+}
+
+#environmental:hover {
+    opacity: 0;
+}
+
+#little {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 200px;
+    width: 480px;
+    margin-left: 670px;
+    margin-top: 520px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#little2 {
+    border: 1px solid white;
+    background-color: white;
+    height: 200px;
+    width: 480px;
+    margin-left: 670px;
+    margin-top: 520px;
+    text-align: left;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#little:hover {
+    opacity: 0;
+}
+
+img {
+    float: left;
+    max-width: 200px;
+    padding-right: 20px;
+}
+
+div {
+    clear: left;
+    position: relative;
+    bottom: -900px;
+    width: 100%;
+    height: 210px;
+    background-color: black;
+    font-family: Francois One, sans-serif;
+    color: white;
+    font-size: 140%;
+    line-height: 2em;
 }
