@@ -46,7 +46,7 @@ p {
     background-color: #ff3333;
     height: 200px;
     width: 200px;
-    margin-right: 200px;
+    margin-right: 180px;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -57,7 +57,7 @@ p {
 #innovative2 {
     height: 200px;
     width: 200px;
-    margin-right: 200px;
+    margin-right: 180px;
     text-align: center;
     border: 1px solid white;
     background-color: white;
@@ -103,8 +103,8 @@ p {
     border: 1px solid #ff3333;
     border-radius: 50%;
     background-color: #ff3333;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin-left:950px;
     color: white;
     font-size: 800%;
@@ -117,8 +117,8 @@ p {
     border: 1px solid white;
     border-radius: 50%;
     background-color: white;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     margin-left: 950px;
     text-align: center;
     color: black;
@@ -135,10 +135,10 @@ p {
     border: 1px solid #ff3333;
     border-radius: 50%;
     background-color: #ff3333;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin-right:200px;
-    margin-top: 250px;
+    margin-top: 260px;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -150,10 +150,10 @@ p {
     border: 1px solid white;
     border-radius: 50%;
     background-color: white;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin-right: 200px;
-    margin-top: 250px;
+    margin-top: 260px;
     text-align: center;
     color: black;
     position: absolute;
@@ -162,5 +162,36 @@ p {
 }
 
 #understandable:hover {
+    opacity: 0;
+}
+
+#unobtrusive {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 200px;
+    width: 160px;
+    margin-left: 420px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    padding: 10px;
+}
+
+#unobtrusive2 {
+    height: 200px;
+    width: 160px;
+    margin-left: 420px;
+    margin-top: 260px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+}
+
+#unobtrusive:hover {
     opacity: 0;
 }
