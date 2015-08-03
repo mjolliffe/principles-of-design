@@ -546,13 +546,13 @@ p {
 #dieter{
     clear: left;
     position: relative;
-    bottom: -850px;
     width: 100%;
     height: 210px;
     background-color: #222222;
     font-family: Francois One, sans-serif;
     color: white;
     font-size: 140%;
+    margin-top: 50px;
 }
 
 img {
@@ -562,20 +562,21 @@ img {
 }
 
 ol {
-    padding-right: 30px;
     line-height: 2em;
+    font-family: "Didact Gothic", sans-serif;
 }
 
 ol li:first-of-type {
-    font-size: 42px;
+    font-size: 54px;
     padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Francois One, sans-serif;
+    letter-spacing: 3px;
 }
 
-#photos {
+.photos {
     position: relative;
-    bottom: -1000px;
-    background-color: #222222;
-    opacity: 0.9;
+    width: 400px;
 }
 
 .large-image {
