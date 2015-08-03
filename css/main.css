@@ -608,7 +608,7 @@ ol li:first-of-type {
     letter-spacing: 3px;
 }
 
-#photo1{
+#photo1 {
     clear: left;
     position: relative;
     width: 100%;
@@ -619,7 +619,7 @@ ol li:first-of-type {
     font-size: 140%;
 }
 
-#photo2{
+#photo2 {
     clear: left;
     position: relative;
     width: 100%;
