@@ -1,24 +1,35 @@
 body {
     color: #222222;
+    width: auto;
 }
-
 
 nav {
-    list-style-type: none;
-    margin: 0 auto;
     font-family: Francois One, sans-serif;
     font-size: 200%;
-}
-
-ul li {
+    width: 100%;
     float: left;
-    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-bottom: solid 4px #ff3333;
+ }
+
+nav ul {
+    list-style: none;
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px;
 }
 
-li a {
-    color: #222222;
+nav li {
+    float: left;
+    padding: 24px;
 }
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #222222;
+ }
 
 a:link {
     color: #222222;
@@ -34,12 +45,21 @@ a:hover, a:active {
     text-align: center;
 }
 
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1280px;
+}
+
 .left {
-    margin-left: 360px;
+    width: 1280px;
     font-family: "Didact Gothic", sans-serif;
     font-size: 800%;
     letter-spacing: 8px;
     line-height: 200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .middle {
@@ -50,21 +70,30 @@ a:hover, a:active {
     letter-spacing: 8px;
 }
 
+.big {
+    margin-left: 360px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 800%;
+    letter-spacing: 8px;
+    line-height: 110px;
+}
+
 .pagesleft {
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 1280px;
+    margin: 0 auto;
     font-family: "Didact Gothic", sans-serif;
     font-size: 200%;
     line-height: 1.2em;
-    padding-top: 50px;
+    padding-top: 70px;
+    text-align: center;
 }
 
 #innovativepage {
     border: 1px solid #222222;
     background-color: #222222;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -76,22 +105,21 @@ a:hover, a:active {
     border: 1px solid #ff3333;
     background-color: #ff3333;
     height: 220px;
-    width: 520px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
-    text-align: right;
+    text-align: center;
     position: absolute;
     line-height: 200px;
 }
 
 #aestheticpage {
     border: 1px solid #FFCD29;
-    border-radius: 50%;
     background-color: #FFCD29;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -101,11 +129,10 @@ a:hover, a:active {
 
 #understandablepage {
     border: 1px solid #ff3333;
-    border-radius: 50%;
     background-color: #ff3333;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -117,8 +144,8 @@ a:hover, a:active {
     border: 1px solid #ff3333;
     background-color: #ff3333;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -128,11 +155,10 @@ a:hover, a:active {
 
 #honestpage {
     border: 1px solid #222222;
-    border-top-left-radius:100%;
     background-color: #222222;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -142,11 +168,10 @@ a:hover, a:active {
 
 #long-lastingpage {
     border: 1px solid #ff3333;
-    border-top-right-radius:100%;
     background-color: #ff3333;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -156,11 +181,10 @@ a:hover, a:active {
 
 #thoroughpage {
     border: 1px solid #FFCD29;
-    border-radius: 50%;
     background-color: #FFCD29;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -172,8 +196,8 @@ a:hover, a:active {
     border: 1px solid #222222;
     background-color: #222222;
     height: 220px;
-    width: 220px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -185,8 +209,8 @@ a:hover, a:active {
     border: 1px solid #FFCD29;
     background-color: #FFCD29;
     height: 220px;
-    width: 520px;
-    margin-right: 100px;
+    width: 100%;
+    margin: 0 auto;
     color: white;
     font-size: 800%;
     text-align: center;
@@ -200,6 +224,7 @@ h1 {
     padding-top: 50px;
     text-align: center;
     clear: left;
+    margin: 0 auto;
 }
 
 h2 {
@@ -207,11 +232,7 @@ h2 {
     font-size: 800%;
     text-align: center;
     padding: 70px;
-}
-
-h2 div {
-    position: relative;
-    width: 1364px;
+    margin: 0 auto;
 }
 
 strong {
@@ -555,6 +576,19 @@ p {
     margin-top: 50px;
 }
 
+#dieterhome{
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background-color: #222222;
+    font-family: Francois One, sans-serif;
+    color: white;
+    font-size: 140%;
+    margin-top: 50px;
+    bottom: -850px;
+}
+
 img {
     float: left;
     max-width: 200px;
@@ -574,12 +608,24 @@ ol li:first-of-type {
     letter-spacing: 3px;
 }
 
-.photos {
+#photo1{
+    clear: left;
     position: relative;
-    width: 400px;
+    width: 100%;
+    height: 210px;
+    background-color: #ff3333;
+    font-family: Francois One, sans-serif;
+    color: white;
+    font-size: 140%;
 }
 
-.large-image {
-    padding-top: 50px;
-    margin-left: 100px;
+#photo2{
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background-color: #FFCD29;
+    font-family: Francois One, sans-serif;
+    color: white;
+    font-size: 140%;
 }
