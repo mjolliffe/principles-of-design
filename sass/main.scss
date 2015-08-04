@@ -1,0 +1,622 @@
+body {
+    color: #222222;
+    width: auto;
+}
+
+nav {
+    font-family: Francois One, sans-serif;
+    font-size: 200%;
+    width: 100%;
+    float: left;
+    margin: auto;
+    padding: 30px;
+    border-bottom: solid 4px #ff3333;
+ }
+
+nav ul {
+    list-style: none;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+nav li {
+    float: left;
+    padding: 24px;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #222222;
+ }
+
+a:link {
+    color: #222222;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: blink;
+    text-align: center;
+}
+
+a:hover, a:active {
+    color:white;
+    background-color: #FFCD29;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1280px;
+}
+
+.left {
+    width: 1280px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 800%;
+    letter-spacing: 8px;
+    line-height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.middle {
+    margin-left: 660px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 800%;
+    line-height: 200px;
+    letter-spacing: 8px;
+}
+
+.big {
+    margin-left: 360px;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 800%;
+    letter-spacing: 8px;
+    line-height: 110px;
+}
+
+.pagesleft {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 200%;
+    line-height: 1.2em;
+    padding-top: 70px;
+    text-align: center;
+}
+
+#innovativepage {
+    border: 1px solid #222222;
+    background-color: #222222;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#usefulpage {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#aestheticpage {
+    border: 1px solid #FFCD29;
+    background-color: #FFCD29;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#understandablepage {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#unobtrusivepage {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#honestpage {
+    border: 1px solid #222222;
+    background-color: #222222;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#long-lastingpage {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#thoroughpage {
+    border: 1px solid #FFCD29;
+    background-color: #FFCD29;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#environmentalpage {
+    border: 1px solid #222222;
+    background-color: #222222;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#littlepage {
+    border: 1px solid #FFCD29;
+    background-color: #FFCD29;
+    height: 220px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+h1 {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 200%;
+    padding-top: 50px;
+    text-align: center;
+    clear: left;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: Francois One, sans-serif;
+    font-size: 800%;
+    text-align: center;
+    padding: 70px;
+    margin: 0 auto;
+}
+
+strong {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: Didact Gothic, sans-serif;
+    margin-left: 100px;
+    font-size: 14px;
+    line-height: 1.2em;
+    position: relative;
+}
+
+#innovative {
+    border: 1px solid #222222;
+    background-color: #222222;
+    height: 220px;
+    width: 220px;
+    margin-right: 100px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#innovative2 {
+    height: 220px;
+    width: 220px;
+    margin-right: 100px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: white;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#innovative:hover {
+    opacity: 0;
+}
+
+#useful {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 220px;
+    width: 520px;
+    margin-left: 400px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    line-height: 200px;
+}
+
+#useful2 {
+    height: 220px;
+    width: 520px;
+    margin-left: 400px;
+    text-align: left;
+    border: 1px solid white;
+    background-color: white;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#useful:hover {
+    opacity: 0;
+}
+
+#aesthetic {
+    border: 1px solid #FFCD29;
+    border-radius: 50%;
+    background-color: #FFCD29;
+    height: 220px;
+    width: 220px;
+    margin-left: 1000px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#aesthetic2 {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-left: 1000px;
+    text-align: center;
+    color: #222222;
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.4em;
+}
+
+#aesthetic:hover {
+    opacity: 0;
+}
+
+#understandable {
+    border: 1px solid #ff3333;
+    border-radius: 50%;
+    background-color: #ff3333;
+    height: 220px;
+    width: 220px;
+    margin-right:100px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#understandable2 {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-right: 100px;
+    margin-top: 260px;
+    color: #222222;
+    position: absolute;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#understandable:hover {
+    opacity: 0;
+}
+
+#unobtrusive {
+    border: 1px solid #ff3333;
+    background-color: #ff3333;
+    height: 220px;
+    width: 220px;
+    margin-left: 400px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    line-height: 200px;
+}
+
+#unobtrusive2 {
+    border: 1px solid white;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-left: 400px;
+    margin-top: 260px;
+    text-align: left;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#unobtrusive:hover {
+    opacity: 0;
+}
+
+#honest {
+    border: 1px solid #222222;
+    border-top-left-radius:100%;
+    background-color: #222222;
+    height: 220px;
+    width: 220px;
+    margin-left: 700px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    line-height: 200px;
+}
+
+#honest2 {
+    border: 1px solid white;
+    border-top-left-radius:100%;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-left: 700px;
+    margin-top: 260px;
+    text-align: right;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#honest:hover {
+    opacity: 0;
+}
+
+#long-lasting {
+    border: 1px solid #ff3333;
+    border-top-right-radius:100%;
+    background-color: #ff3333;
+    height: 220px;
+    width: 220px;
+    margin-left: 1000px;
+    margin-top: 260px;
+    color: white;
+    font-size: 800%;
+    text-align: left;
+    position: absolute;
+    line-height: 200px;
+}
+
+#long-lasting2 {
+    border: 1px solid white;
+    border-top-right-radius:100%;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-left: 1000px;
+    margin-top: 260px;
+    text-align: left;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#long-lasting:hover {
+    opacity: 0;
+}
+
+#thorough {
+    border: 1px solid #FFCD29;
+    border-radius: 50%;
+    background-color: #FFCD29;
+    height: 220px;
+    width: 220px;
+    margin-right:100px;
+    margin-top: 520px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+}
+
+#thorough2 {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-right: 100px;
+    margin-top: 520px;
+    color: #222222;
+    position: absolute;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#thorough:hover {
+    opacity: 0;
+}
+
+#environmental {
+    border: 1px solid #222222;
+    background-color: #222222;
+    height: 220px;
+    width: 220px;
+    margin-left: 400px;
+    margin-top: 520px;
+    color: white;
+    font-size: 800%;
+    text-align: right;
+    position: absolute;
+    line-height: 200px;
+}
+
+#environmental2 {
+    border: 1px solid white;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    margin-left: 400px;
+    margin-top: 520px;
+    text-align: left;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#environmental:hover {
+    opacity: 0;
+}
+
+#little {
+    border: 1px solid #FFCD29;
+    background-color: #FFCD29;
+    height: 220px;
+    width: 520px;
+    margin-left: 700px;
+    margin-top: 520px;
+    color: white;
+    font-size: 800%;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    line-height: 200px;
+}
+
+#little2 {
+    border: 1px solid white;
+    background-color: white;
+    height: 220px;
+    width: 520px;
+    margin-left: 700px;
+    margin-top: 520px;
+    text-align: left;
+    color: #222222;
+    position: absolute;
+    line-height: 1.4em;
+}
+
+#little:hover {
+    opacity: 0;
+}
+
+#dieter{
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background-color: #222222;
+    font-family: Francois One, sans-serif;
+    color: white;
+    font-size: 140%;
+    margin-top: 50px;
+}
+
+#dieterhome{
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: 210px;
+    background-color: #222222;
+    font-family: Francois One, sans-serif;
+    color: white;
+    font-size: 140%;
+    margin-top: 50px;
+    bottom: -850px;
+}
+
+#dieter img {
+    float: left;
+    max-width: 200px;
+    padding-right: 30px;
+}
+
+#dieterhome img {
+    float: left;
+    max-width: 200px;
+    padding-right: 30px;
+}
+
+ol {
+    line-height: 2em;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+ol li:first-of-type {
+    font-size: 54px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Francois One, sans-serif;
+    letter-spacing: 3px;
+}
+
+#photos img{
+    max-height: 300px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-right: 32px;
+}
