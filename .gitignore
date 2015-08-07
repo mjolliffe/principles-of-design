@@ -15,7 +15,7 @@
 
 ###########
 # Eclipse #
-#         ##################################################################
+# ------- ##################################################################
 # https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore #
 ############################################################################
 *.pydevproject
@@ -49,7 +49,7 @@ local.properties
 Desktop.ini
 
 ##################################################
-# Locally stored “Eclipse launch configurations” #
+# Locally stored "Eclipse launch configurations" #
 ##################################################
 *.launch
 
@@ -73,6 +73,8 @@ Thumbs.db
 ############
 # Packages #
 ############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
 *.7z
 *.dmg
 *.gz
@@ -101,12 +103,12 @@ $RECYCLE.BIN/
 # SASS #
 ########
 *.scssc
-*.map
 .sass-cache
+*.map
 
 ###############
 # SublimeText #
-#             ###############
+# ----------- ###############
 # SublimeText project files ####################################################
 # https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore #
 ################################################################################
@@ -114,18 +116,16 @@ $RECYCLE.BIN/
 
 ############
 # TextMate #
-#          ##################################################################
-# https://github.com/github/gitignore/blob/master/Global/TextMate.gitignore #
-#############################################################################
+############
+# https://github.com/github/gitignore/blob/master/Global/TextMate.gitignore
 *.tmproj
 *.tmproject
 tmtags
 
 #######
 # vim #
-#     ##################################################################
-# https://github.com/github/gitignore/blob/master/Global/vim.gitignore #
-########################################################################
+#######
+# https://github.com/github/gitignore/blob/master/Global/vim.gitignore
 *.s[a-w][a-z]
 *.un~
 Session.vim
@@ -134,13 +134,9 @@ Session.vim
 
 ###########
 # Windows #
-#         ###################
+# ------- ###################
 # Windows image file caches ################################################
-# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore #
+# https://github.com/github/gitignore/blob/master/Global/Windowsgitignore #
 ############################################################################
 Thumbs.db
 ehthumbs.db
-
-##########################################
-# Add your repo-specific overrides below #
-##########################################
