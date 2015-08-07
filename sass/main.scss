@@ -23,6 +23,7 @@ nav ul {
 nav li {
     float: left;
     padding: 24px;
+    color: #222222;
 }
 
 nav li a {
@@ -32,7 +33,7 @@ nav li a {
  }
 
 a:link {
-    color: #222222;
+    color: black;
     display: inline-block;
     padding: 10px;
     text-decoration: blink;
@@ -42,7 +43,6 @@ a:link {
 a:hover, a:active {
     color:white;
     background-color: #FFCD29;
-    text-align: center;
 }
 
 .container {
@@ -50,6 +50,11 @@ a:hover, a:active {
     padding-left: 30px;
     padding-right: 30px;
     width: 1280px;
+    color: white;
+}
+
+.container a {
+  color: white;
 }
 
 .left {
